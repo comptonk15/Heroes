@@ -9,6 +9,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 
 @NgModule({
+  
   declarations: [
     AppComponent,
     HerosComponent,
@@ -19,8 +20,11 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
     FormsModule
   ],
   providers: [
-    HeroService,
+    HeroService
   ],
   bootstrap: [AppComponent]
 })
+
+
 export class AppModule { }
+
